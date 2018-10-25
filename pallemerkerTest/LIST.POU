@@ -1,0 +1,4 @@
+FUNCTION_BLOCK	setStatusText			PT=1	setStatusText	HIDDEN=0	
+FUNCTION_BLOCK	statusShift			PT=1	statusShift	HIDDEN=0	
+FUNCTION_BLOCK	stringSort			PT=1	stringSort	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	

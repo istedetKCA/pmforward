@@ -1,0 +1,388 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 35
+QSL: 63
+QVE: 63
+QVPC: 63
+QPar: 0
+QFBI: 15
+*)
+@V 1 6 0
+PLCMODE_RUN	1	VAR_EXTERNAL	@TYP:1
+@RV 29		     
+
+;
+
+@V 1 11 0
+VeriScannerConnection	2	VAR	@FB:44
+		     
+
+;
+
+@V 1 12 0
+veriScannerReceive	3	VAR	@FB:41
+		     
+
+;
+
+@V 1 13 0
+veriScannerBytestreamToString	4	VAR	@FB:47
+		     
+
+;
+
+@V 1 14 0
+veriScannerReceiveBuffer	5	VAR	@TYP:1025
+		     
+
+;
+
+@V 1 15 0
+veriScannerReceiveString	6	VAR	@STR:0
+		     
+
+;
+
+@V 1 16 0
+MarkingEnabled	7	VAR	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 21 0
+I_0_2_1_1_1	8	VAR_EXTERNAL	@TYP:1
+@RV 5		     
+
+;
+
+@V 1 26 0
+PalletInPosition	9	VAR	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 31 0
+I_0_2_1_1_4	10	VAR_EXTERNAL	@TYP:1
+@RV 7		     
+
+;
+
+@V 1 32 0
+I_0_2_1_2_1	11	VAR_EXTERNAL	@TYP:1
+@RV 6		     
+
+;
+
+@V 1 37 0
+PrinterOK	12	VAR	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 42 0
+I_0_2_1_2_4	13	VAR_EXTERNAL	@TYP:1
+@RV 8		     
+
+;
+
+@V 1 47 0
+CycleComplete	14	VAR	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 52 0
+Q_0_1_1_1	15	VAR_EXTERNAL	@TYP:1
+@RV 1		     
+
+;
+
+@V 1 57 0
+Apply	16	VAR	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 58 0
+extCycleComplete	17	VAR	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 63 0
+Q_0_1_1_4	18	VAR_EXTERNAL	@TYP:1
+@RV 3		     
+
+;
+
+@V 1 68 0
+reprint	19	VAR	@TYP:1
+		     
+
+;
+
+@V 1 69 0
+reprintCounter	20	VAR	@FB:38
+		     
+
+;
+
+@V 1 74 0
+externalReprint	21	VAR_EXTERNAL	@TYP:1
+@RV 9		     
+
+;
+
+@V 1 79 0
+resetCounterAndStrings	22	VAR	@TYP:1
+		     
+
+;
+
+@V 1 80 0
+reprintPulse	23	VAR	@FB:36
+		     
+
+;
+
+@V 1 81 0
+reprintRisingEdgeDetection	24	VAR	@FB:40
+		     
+
+;
+
+@V 1 86 0
+reprintCounterValue	25	VAR RETAIN	@TYP:3
+		     
+
+;
+
+@V 1 91 0
+labelApproved	26	VAR	@TYP:1
+		     
+
+;
+
+@V 1 92 0
+labelApprovedREDetection	27	VAR	@FB:40
+		     
+
+;
+
+@V 1 93 0
+printoutFailed	28	VAR	@TYP:1
+		     
+
+;
+
+@V 1 94 0
+palletMovingAway	29	VAR	@FB:39
+		     
+
+;
+
+@V 1 95 0
+setErrorCondition	30	VAR	@FB:37
+		     
+
+;
+
+@V 1 96 0
+resetErrorCondition	31	VAR	@TYP:1
+		     
+
+;
+
+@V 1 97 0
+resetEverythingPulse	32	VAR	@FB:36
+		     
+
+;
+
+@V 1 102 0
+Q_0_1_2_1	33	VAR_EXTERNAL	@TYP:1
+@RV 2		     
+
+;
+
+@V 1 107 0
+TP_1	34	VAR	@FB:36
+		     
+
+;
+
+@V 1 108 0
+qdStringSort	35	VAR	@FB:45
+		     
+
+;
+
+@V 1 109 0
+veriStringSort	36	VAR	@FB:45
+		     
+
+;
+
+@V 1 114 0
+setQDRef	37	VAR_EXTERNAL	@TYP:1
+@RV 19		     
+
+;
+
+@V 1 115 0
+qdRefStr	38	VAR_EXTERNAL	@STR:0
+@RV 20		     
+
+;
+
+@V 1 120 0
+qdRefStrSort	39	VAR	@STR:0
+		     
+
+;
+
+@V 1 121 0
+verScanStrSort	40	VAR	@STR:0
+		     
+
+;
+PFW: PDD
+@V 1 122 0
+veriScanStrSorted	41	VAR	@TYP:1
+		     
+
+;
+
+@V 1 123 0
+barcodesVerifiedOK	42	VAR	@TYP:1
+		     
+
+;
+
+@V 1 124 0
+barOkCTU	43	VAR	@FB:38
+		     
+
+;
+
+@V 1 125 0
+barNokCTU	44	VAR	@FB:38
+		     
+
+;
+
+@V 1 130 0
+barOkCTUVal	45	VAR_EXTERNAL	@TYP:3
+@RV 22		     
+
+;
+
+@V 1 131 0
+barNokCTUVal	46	VAR_EXTERNAL	@TYP:3
+@RV 23		     
+
+;
+
+@V 1 136 0
+barcodeVeriFault	47	VAR	@TYP:1
+		     
+
+;
+
+@V 1 141 0
+frcMarkEnab	48	VAR RETAIN	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 146 0
+frcLabOK	49	VAR	@TYP:1
+		     
+
+;
+PFW: PDD
+@V 1 151 0
+reprintNum	50	VAR RETAIN	@TYP:3
+		     
+@TYP:3# 00#0003
+;
+PFW: PDD
+@V 1 152 0
+veriEnabled	51	VAR RETAIN	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: PDD
+@V 1 157 0
+logText	52	VAR_EXTERNAL	@TYP:1024
+@RV 25		     
+
+;
+
+@V 1 158 0
+logTime	53	VAR_EXTERNAL	@TYP:1024
+@RV 24		     
+
+;
+
+@V 1 163 0
+setStatusTextBool	54	VAR	@TYP:1
+		     
+
+;
+
+
+Code@@235	55	VAR	@TYP:1
+		     
+
+;
+
+
+Code@@259	56	VAR	@TYP:1
+		     
+
+;
+
+
+Code@@275	57	VAR	@TYP:1
+		     
+
+;
+
+
+Code@@280	58	VAR	@TYP:1
+		     
+
+;
+
+@V 2 277 0
+Code@@277	59	VAR	@TYP:1
+		     
+
+;
+
+@V 2 282 0
+Code@@282	60	VAR	@TYP:1
+		     
+
+;
+
+
+Code@@139	61	VAR	@TYP:1
+		     
+
+;
+
+
+Code@@171	62	VAR	@TYP:1
+		     
+
+;
+
+@V 2 173 0
+Code@@173	63	VAR	@TYP:1
+		     
+
+;
+

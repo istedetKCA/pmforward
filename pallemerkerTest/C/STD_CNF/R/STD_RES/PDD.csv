@@ -1,0 +1,16 @@
+Name,Data Type
+@GV.externalReprint,BOOL
+@GV.logTime,strArr_0_14
+@GV.logText,strArr_0_14
+@GV.PLCMODE_ON,BOOL
+Main.MarkingEnabled,BOOL
+Main.PalletInPosition,BOOL
+Main.PrinterOK,BOOL
+Main.CycleComplete,BOOL
+Main.Apply,BOOL
+Main.extCycleComplete,BOOL
+Main.verScanStrSort,STRING(80)
+Main.frcMarkEnab,BOOL
+Main.frcLabOK,BOOL
+Main.reprintNum,INT
+Main.veriEnabled,BOOL

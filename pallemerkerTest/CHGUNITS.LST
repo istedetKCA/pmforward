@@ -1,0 +1,7 @@
+(*
+NPOU: 4
+*)
+FB	setStatusText
+FB	statusShift
+FB	stringSort
+PG	Main

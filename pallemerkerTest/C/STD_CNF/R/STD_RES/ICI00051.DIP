@@ -1,0 +1,15 @@
+(*
+T: FUNCTION_BLOCK setStatusText
+FW: NO
+CI#: 51
+QSL: 6
+QVE: 6
+QVPC: 6
+QPar: 5
+QFBI: 1
+*)
+inStr1	@IV 1	@STR:0	VAR_INPUT
+inStr2	@IV 5	@STR:0	VAR_INPUT
+outBool	@IV 6	@TYP:1	VAR_OUTPUT
+outStr	@IV 3	@STR:0	VAR_OUTPUT
+startExec	@IV 2	@TYP:1	VAR_INPUT

@@ -1,0 +1,124 @@
+(*
+T: FUNCTION_BLOCK stringSort
+FW: NO
+CI#: 45
+QSL: 19
+QVE: 19
+QVPC: 19
+QPar: 5
+QFBI: 0
+*)
+@V 1 6 0
+subStr1	1	VAR	@STR:0
+		     
+
+;
+
+@V 1 7 0
+subStr2	2	VAR	@STR:0
+		     
+
+;
+
+@V 1 8 0
+subCharPos	3	VAR	@TYP:3
+		     
+
+;
+
+@V 1 9 0
+subStr3	4	VAR	@STR:0
+		     
+
+;
+
+@V 1 14 0
+inStr	5	VAR_INPUT	@STR:0
+		     
+
+;
+
+@V 1 19 0
+srtStr	6	VAR_OUTPUT	@STR:0
+		     
+
+;
+
+@V 1 24 0
+strLen	7	VAR	@TYP:3
+		     
+
+;
+
+@V 1 25 0
+subStr1H	8	VAR	@STR:0
+		     
+
+;
+
+@V 1 26 0
+SubStr2H	9	VAR	@STR:0
+		     
+
+;
+
+@V 1 27 0
+subStr1Lt2	10	VAR	@TYP:1
+		     
+
+;
+
+@V 1 28 0
+bufStr	11	VAR	@STR:0
+		     
+
+;
+
+@V 1 29 0
+SubStr3H	12	VAR	@STR:0
+		     
+
+;
+
+@V 1 34 0
+outBool	13	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 39 0
+subStr1int	14	VAR	@TYP:3
+		     
+
+;
+
+@V 1 40 0
+subStr2int	15	VAR	@TYP:3
+		     
+
+;
+
+@V 1 41 0
+noreadIntPos	16	VAR	@TYP:3
+		     
+
+;
+
+@V 1 42 0
+subStr3int	17	VAR	@TYP:3
+		     
+
+;
+
+@V 1 47 0
+barNum	18	VAR_INPUT	@TYP:3
+		     
+
+;
+
+@V 1 48 0
+start	19	VAR_INPUT	@TYP:1
+		     
+
+;
+

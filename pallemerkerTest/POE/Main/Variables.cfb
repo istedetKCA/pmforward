@@ -1,0 +1,15 @@
+VeriScannerConnection	IP_CONNECT
+veriScannerReceive	IP_URCV
+veriScannerBytestreamToString	BUF_TO_STRING
+reprintCounter	CTU
+reprintPulse	TP
+reprintRisingEdgeDetection	R_TRIG
+labelApprovedREDetection	R_TRIG
+palletMovingAway	F_TRIG
+setErrorCondition	SR
+resetEverythingPulse	TP
+TP_1	TP
+qdStringSort	stringSort
+veriStringSort	stringSort
+barOkCTU	CTU
+barNokCTU	CTU
